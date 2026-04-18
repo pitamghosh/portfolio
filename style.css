@@ -183,3 +183,15 @@ body {
     text-align: center;
     padding: 40px;
 }
+section {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
