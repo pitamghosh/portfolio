@@ -147,3 +147,13 @@ nav {
     border-radius: 5px;
     font-size: 16px;
 }
+.project-card {
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+.btn:hover {
+    transform: scale(1.05);
+}
