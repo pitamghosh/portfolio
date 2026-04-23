@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<li><a href="#top">Home</a></li>
+
 <!-- Navbar -->
 <nav>
     <h2>Pitam</h2>
     <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#top">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -21,81 +21,87 @@
     </ul>
 </nav>
 
-<!-- Header -->
-<header>
-    <h1>Pitam Ghosh</h1>
-    <p>BCA Student | Aspiring Software Developer</p>
-</header>
-<section class="hero">
-    <h2>Hello, I'm Pitam 👋</h2>
-    <p>Aspiring Software Developer | BCA Student</p>
-    <a href="#contact" class="btn">Hire Me</a>
+<!-- HERO -->
+<section class="hero" id="top">
+    <div class="hero-text">
+        <h1>Hi, I'm <span>Pitam Ghosh</span></h1>
+        <p id="typing"></p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+
+    <img src="Pi7_Passport_Photo (1).jpg" class="profile">
 </section>
-<img src="Pi7_Passport_Photo (1).jpg" class="profile">
 
 <!-- About -->
-<section id="about">
+<section id="about" class="fade-in">
     <h2>About Me</h2>
-    <p>I am a BCA student with knowledge of HTML, Java, Python, and DBMS. I am passionate about software development and looking for internship opportunities.</p>
-<p><b>Career Objective:</b> Seeking an entry-level software development internship to apply my skills and gain practical experience.</p>
+    <p>I am a BCA student passionate about web development and building modern applications.</p>
+    <p><b>Career Objective:</b> Seeking an internship to apply my skills and gain real-world experience.</p>
 </section>
-
 
 <!-- Skills -->
-<section id="skills">
+<section id="skills" class="fade-in">
     <h2>Skills</h2>
     <div class="skill-box">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Java</span>
-        <span>Python</span>
-        <span>MySQL</span>
+        <span><i class="fab fa-html5"></i> HTML</span>
+        <span><i class="fab fa-css3-alt"></i> CSS</span>
+        <span><i class="fab fa-js"></i> JavaScript</span>
+        <span><i class="fab fa-java"></i> Java</span>
+        <span><i class="fas fa-database"></i> MySQL</span>
     </div>
 </section>
-<section id="projects">
+
+<!-- Projects -->
+<section id="projects" class="fade-in">
     <h2>Projects</h2>
 
-  <div class="project-card">
-    <h3>Personal Portfolio Website</h3>
-    <p>Developed a responsive personal portfolio using HTML and CSS. Showcases skills, projects, and contact details.</p>
-    <a href="https://pitamghosh.github.io/portfolio/" target="_blank">🔗 View Project</a>
-</div>
-      <div class="project-card">
-    <h3>Rock-Paper-Scissor Game</h3>
-    <p>Developed a responsive Game using HTML, CSS and Java script. Showcases skills, projects, and contact details.</p>
-    <a href="https://pitamghosh.github.io/rock_paper_scissor/01_rock_paper_scissors.html" target="_blank">🔗 View Project</a>
-</div>
-      <div class="project-card">
-    <h3>Eye Blink Detection System</h3>
-    <p>Developed a real-time computer vision system to detect and count eye blinks using Python, OpenCV, and MediaPipe. The system tracks facial landmarks and uses eye aspect ratio for blink detection with live visualization and graph output.</p>
-    <a href="https://github.com/pitamghosh/blink-detection" target="_blank">🔗 View Project</a>
-</div>
+    <div class="projects">
 
-<div class="project-card">
-    <h3>Weather App</h3>
-    <p>Developed a responsive App using HTML, CSS and Java script. Showcases skills, projects, and contact details</p>
-    <a href="https://pitamghosh.github.io/weather-app/" target="_blank">🔗 View Project</a>
+        <div class="project-card">
+            <h3>To-Do App</h3>
+            <p>Task manager with localStorage, filters & dark mode.</p>
+            <a href="https://pitamghosh.github.io/synent-task5-todo-pitam/" target="_blank">View Live</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Weather App</h3>
+            <p>Weather app using API with real-time data.</p>
+            <a href="https://pitamghosh.github.io/weather-app/" target="_blank">View Live</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Rock Paper Scissors</h3>
+            <p>Interactive game using JavaScript.</p>
+            <a href="https://pitamghosh.github.io/rock_paper_scissor/01_rock_paper_scissors.html" target="_blank">Play</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Eye Blink Detection</h3>
+            <p>Python + OpenCV real-time blink detection system.</p>
+            <a href="https://github.com/pitamghosh/blink-detection" target="_blank">View Code</a>
+        </div>
+
+    </div>
 </section>
 
 <!-- Contact -->
-<section id="contact">
+<section id="contact" class="fade-in">
     <h2>Contact</h2>
-    <p>📧 Email: <a href="mailto:pitamghosh880@gmail.com">pitamghosh880@gmail.com</a></p>
+
+    <p>Email: <a href="mailto:pitamghosh880@gmail.com">pitamghosh880@gmail.com</a></p>
 
     <div class="links">
-        <a href="https://github.com/pitamghosh" target="_blank">💻 GitHub</a>
-        <a href="https://linkedin.com/in/pitam-ghosh-220b252ba" target="_blank">🔗 LinkedIn</a>
+        <a href="https://github.com/pitamghosh" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://linkedin.com/in/pitam-ghosh-220b252ba" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
     </div>
 
-    <a href="Pitam_Ghosh_Resume.pdf" download class="btn">📄 Download Resume</a>
+    <a href="Pitam_Ghosh_Resume.pdf" download class="btn">Download Resume</a>
 </section>
 
-
-
-<a href="Pitam_Ghosh_Resume.pdf" download class="btn">Download Resume</a>
 <footer>
     <p>© 2026 Pitam Ghosh</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
