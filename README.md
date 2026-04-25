@@ -35,7 +35,7 @@ A Python-based computer vision project using OpenCV.
 - LinkedIn: https://linkedin.com/in/pitam-ghosh-220b252ba
 
 ##  Screenshot
-(Screenshot 2026-04-18 205109.png)
+(Screenshot 2026-04-25 190054.png)
 
 ##  Features
 - Responsive design
